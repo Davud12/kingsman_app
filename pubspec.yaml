@@ -1,0 +1,72 @@
+name: kingsman_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  provider: ^6.1.4
+  cupertino_icons: ^1.0.8
+  smooth_page_indicator: ^1.2.1
+  animated_rating_stars: ^1.0.1
+  firebase_database: ^12.0.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - asset/image/Groupss.png
+    - asset/image/image.png
+    - asset/image/ima.png
+    - asset/image/imagj.png
+    - asset/image/da.jpg
+    - asset/image/db.jpg
+    - asset/image/fa.jpg
+    - asset/image/fb.jpg
+    - asset/image/fd.jpg
+    - asset/image/ka.jpg
+    - asset/image/kb.jpg
+    - asset/image/ra.jpg
+    - asset/image/rb.jpg
+    - asset/image/rd.jpg
+    - asset/image/kicon.png
+    - asset/image/cart.png
+    - asset/image/GroupD.png
+    - asset/image/Pants.png
+    - asset/image/Vector.png
+    - asset/image/Vector-26.png
+  fonts:
+    - family: Montserrat
+      fonts:
+      - asset: fonts/Montserrat/Montserrat-Black.ttf
+        weight: 900
+      - asset: fonts/Montserrat/Montserrat-Bold.ttf
+        weight: 700
+      - asset: fonts/Montserrat/Montserrat-ExtraBold.ttf
+        weight: 800
+      - asset: fonts/Montserrat/Montserrat-ExtraLight.ttf
+        weight: 200
+      - asset: fonts/Montserrat/Montserrat-Light.ttf
+        weight: 300
+      - asset: fonts/Montserrat/Montserrat-Medium.ttf
+        weight: 500
+      - asset: fonts/Montserrat/Montserrat-Regular.ttf
+        weight: 400
+      - asset: fonts/Montserrat/Montserrat-SemiBold.ttf
+        weight: 600
+      - asset: fonts/Montserrat/Montserrat-Thin.ttf
+        weight: 100
